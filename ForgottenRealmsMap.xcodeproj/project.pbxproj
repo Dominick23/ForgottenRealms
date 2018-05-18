@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC1F6364207D20850041B494 /* TorilDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F6363207D20850041B494 /* TorilDetailView.swift */; };
+		DC36889B20A3EAF80039EE2A /* FaerunDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC36889A20A3EAF80039EE2A /* FaerunDetailView.swift */; };
+		DC3E591B203E92C100AA1415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3E591A203E92C100AA1415 /* AppDelegate.swift */; };
+		DC3E591D203E92C100AA1415 /* FaerunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3E591C203E92C100AA1415 /* FaerunViewController.swift */; };
+		DC3E5920203E92C100AA1415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3E591E203E92C100AA1415 /* Main.storyboard */; };
+		DC3E5922203E92C100AA1415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3E5921203E92C100AA1415 /* Assets.xcassets */; };
+		DC3E5925203E92C100AA1415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3E5923203E92C100AA1415 /* LaunchScreen.storyboard */; };
+		DC3E592D203E93FC00AA1415 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3E592C203E93FC00AA1415 /* Global.swift */; };
+		DC4608912090EDE900F88555 /* ThreeLineButtonMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4608902090EDE900F88555 /* ThreeLineButtonMenuViewController.swift */; };
+		DC59256520A5042500C00C4C /* DetailsOfFaerun.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59256420A5042500C00C4C /* DetailsOfFaerun.swift */; };
+		DC5E55D22056DD02002EFA35 /* code.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E55D12056DD02002EFA35 /* code.swift */; };
+		DC5E55D42056E2D7002EFA35 /* MapOfMirabarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E55D32056E2D7002EFA35 /* MapOfMirabarViewController.swift */; };
+		DCA8234E20903EE20098A932 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA8234D20903EE20098A932 /* HelpViewController.swift */; };
+		DCBE0209207C76D300922B63 /* TorilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE0208207C76D300922B63 /* TorilViewController.swift */; };
+		DCFFF7A320910F330016D870 /* CallToArmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFFF7A220910F330016D870 /* CallToArmsViewController.swift */; };
+		DCFFF7A520913E740016D870 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFFF7A420913E740016D870 /* ContactUsViewController.swift */; };
+		DCFFF7A720913EF40016D870 /* QuickReferenceRulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFFF7A620913EF40016D870 /* QuickReferenceRulesViewController.swift */; };
+		DCFFF7A9209142B10016D870 /* DnD Cheat Sheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DCFFF7A8209142B10016D870 /* DnD Cheat Sheet.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC1F6363207D20850041B494 /* TorilDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorilDetailView.swift; sourceTree = "<group>"; };
+		DC36889A20A3EAF80039EE2A /* FaerunDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaerunDetailView.swift; sourceTree = "<group>"; };
+		DC3E5917203E92C100AA1415 /* ForgottenRealmsMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForgottenRealmsMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3E591A203E92C100AA1415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC3E591C203E92C100AA1415 /* FaerunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaerunViewController.swift; sourceTree = "<group>"; };
+		DC3E591F203E92C100AA1415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC3E5921203E92C100AA1415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC3E5924203E92C100AA1415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC3E5926203E92C100AA1415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3E592C203E93FC00AA1415 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		DC4608902090EDE900F88555 /* ThreeLineButtonMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeLineButtonMenuViewController.swift; sourceTree = "<group>"; };
+		DC59256420A5042500C00C4C /* DetailsOfFaerun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsOfFaerun.swift; sourceTree = "<group>"; };
+		DC5E55D12056DD02002EFA35 /* code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = code.swift; sourceTree = "<group>"; };
+		DC5E55D32056E2D7002EFA35 /* MapOfMirabarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOfMirabarViewController.swift; sourceTree = "<group>"; };
+		DCA8234D20903EE20098A932 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		DCBE0208207C76D300922B63 /* TorilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorilViewController.swift; sourceTree = "<group>"; };
+		DCFFF7A220910F330016D870 /* CallToArmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallToArmsViewController.swift; sourceTree = "<group>"; };
+		DCFFF7A420913E740016D870 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		DCFFF7A620913EF40016D870 /* QuickReferenceRulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickReferenceRulesViewController.swift; sourceTree = "<group>"; };
+		DCFFF7A8209142B10016D870 /* DnD Cheat Sheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "DnD Cheat Sheet.pdf"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC3E5914203E92C100AA1415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC36889C20A3EB080039EE2A /* TorilDetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				DC1F6363207D20850041B494 /* TorilDetailView.swift */,
+				DC36889A20A3EAF80039EE2A /* FaerunDetailView.swift */,
+			);
+			path = TorilDetailViews;
+			sourceTree = "<group>";
+		};
+		DC3E590E203E92C100AA1415 = {
+			isa = PBXGroup;
+			children = (
+				DC3E5919203E92C100AA1415 /* ForgottenRealmsMap */,
+				DC3E5918203E92C100AA1415 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC3E5918203E92C100AA1415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC3E5917203E92C100AA1415 /* ForgottenRealmsMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC3E5919203E92C100AA1415 /* ForgottenRealmsMap */ = {
+			isa = PBXGroup;
+			children = (
+				DC3E591A203E92C100AA1415 /* AppDelegate.swift */,
+				DC5E55D12056DD02002EFA35 /* code.swift */,
+				DCBE0208207C76D300922B63 /* TorilViewController.swift */,
+				DC36889C20A3EB080039EE2A /* TorilDetailViews */,
+				DC3E591C203E92C100AA1415 /* FaerunViewController.swift */,
+				DC59256420A5042500C00C4C /* DetailsOfFaerun.swift */,
+				DC5E55D32056E2D7002EFA35 /* MapOfMirabarViewController.swift */,
+				DC3E592C203E93FC00AA1415 /* Global.swift */,
+				DCA8234F20903EEC0098A932 /* 3 Line Button */,
+				DC3E591E203E92C100AA1415 /* Main.storyboard */,
+				DC3E5921203E92C100AA1415 /* Assets.xcassets */,
+				DC3E5923203E92C100AA1415 /* LaunchScreen.storyboard */,
+				DC3E5926203E92C100AA1415 /* Info.plist */,
+			);
+			path = ForgottenRealmsMap;
+			sourceTree = "<group>";
+		};
+		DCA8234F20903EEC0098A932 /* 3 Line Button */ = {
+			isa = PBXGroup;
+			children = (
+				DC4608902090EDE900F88555 /* ThreeLineButtonMenuViewController.swift */,
+				DCA8234D20903EE20098A932 /* HelpViewController.swift */,
+				DCFFF7A220910F330016D870 /* CallToArmsViewController.swift */,
+				DCFFF7A420913E740016D870 /* ContactUsViewController.swift */,
+				DCFFF7A8209142B10016D870 /* DnD Cheat Sheet.pdf */,
+				DCFFF7A620913EF40016D870 /* QuickReferenceRulesViewController.swift */,
+			);
+			path = "3 Line Button";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC3E5916203E92C100AA1415 /* ForgottenRealmsMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3E5929203E92C100AA1415 /* Build configuration list for PBXNativeTarget "ForgottenRealmsMap" */;
+			buildPhases = (
+				DC3E5913203E92C100AA1415 /* Sources */,
+				DC3E5914203E92C100AA1415 /* Frameworks */,
+				DC3E5915203E92C100AA1415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForgottenRealmsMap;
+			productName = ZoomTest;
+			productReference = DC3E5917203E92C100AA1415 /* ForgottenRealmsMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC3E590F203E92C100AA1415 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Joey Marino";
+				TargetAttributes = {
+					DC3E5916203E92C100AA1415 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC3E5912203E92C100AA1415 /* Build configuration list for PBXProject "ForgottenRealmsMap" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC3E590E203E92C100AA1415;
+			productRefGroup = DC3E5918203E92C100AA1415 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC3E5916203E92C100AA1415 /* ForgottenRealmsMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC3E5915203E92C100AA1415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3E5925203E92C100AA1415 /* LaunchScreen.storyboard in Resources */,
+				DC3E5922203E92C100AA1415 /* Assets.xcassets in Resources */,
+				DC3E5920203E92C100AA1415 /* Main.storyboard in Resources */,
+				DCFFF7A9209142B10016D870 /* DnD Cheat Sheet.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC3E5913203E92C100AA1415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFFF7A720913EF40016D870 /* QuickReferenceRulesViewController.swift in Sources */,
+				DC5E55D22056DD02002EFA35 /* code.swift in Sources */,
+				DC4608912090EDE900F88555 /* ThreeLineButtonMenuViewController.swift in Sources */,
+				DC36889B20A3EAF80039EE2A /* FaerunDetailView.swift in Sources */,
+				DC3E591D203E92C100AA1415 /* FaerunViewController.swift in Sources */,
+				DC3E591B203E92C100AA1415 /* AppDelegate.swift in Sources */,
+				DCA8234E20903EE20098A932 /* HelpViewController.swift in Sources */,
+				DC1F6364207D20850041B494 /* TorilDetailView.swift in Sources */,
+				DC59256520A5042500C00C4C /* DetailsOfFaerun.swift in Sources */,
+				DCFFF7A320910F330016D870 /* CallToArmsViewController.swift in Sources */,
+				DC5E55D42056E2D7002EFA35 /* MapOfMirabarViewController.swift in Sources */,
+				DC3E592D203E93FC00AA1415 /* Global.swift in Sources */,
+				DCBE0209207C76D300922B63 /* TorilViewController.swift in Sources */,
+				DCFFF7A520913E740016D870 /* ContactUsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC3E591E203E92C100AA1415 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3E591F203E92C100AA1415 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC3E5923203E92C100AA1415 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3E5924203E92C100AA1415 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC3E5927203E92C100AA1415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC3E5928203E92C100AA1415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC3E592A203E92C100AA1415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F22437MDRU;
+				INFOPLIST_FILE = ForgottenRealmsMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = forgottenRealmsMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC3E592B203E92C100AA1415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F22437MDRU;
+				INFOPLIST_FILE = ForgottenRealmsMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = forgottenRealmsMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC3E5912203E92C100AA1415 /* Build configuration list for PBXProject "ForgottenRealmsMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3E5927203E92C100AA1415 /* Debug */,
+				DC3E5928203E92C100AA1415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3E5929203E92C100AA1415 /* Build configuration list for PBXNativeTarget "ForgottenRealmsMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3E592A203E92C100AA1415 /* Debug */,
+				DC3E592B203E92C100AA1415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC3E590F203E92C100AA1415 /* Project object */;
+}

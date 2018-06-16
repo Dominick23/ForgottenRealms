@@ -150,15 +150,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hex" translatesAutoresizingMaskIntoConstraints="NO" id="wf7-Td-czN">
+                                <rect key="frame" x="0.0" y="32" width="667" height="343"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="wf7-Td-czN" firstAttribute="bottom" secondItem="o6K-x8-LIn" secondAttribute="bottom" id="42O-sz-GD3"/>
                             <constraint firstItem="o6K-x8-LIn" firstAttribute="bottom" secondItem="PAr-lo-m0W" secondAttribute="bottom" id="5Ip-ND-DSh"/>
                             <constraint firstItem="Jgn-Kf-FRk" firstAttribute="bottom" secondItem="o6K-x8-LIn" secondAttribute="bottom" id="GEe-58-rXX"/>
                             <constraint firstItem="Jgn-Kf-FRk" firstAttribute="top" secondItem="r7g-Vc-mcd" secondAttribute="topMargin" id="MCo-Wi-fRl"/>
                             <constraint firstItem="Jgn-Kf-FRk" firstAttribute="leading" secondItem="o6K-x8-LIn" secondAttribute="leading" id="QQr-ei-0On"/>
+                            <constraint firstItem="wf7-Td-czN" firstAttribute="trailing" secondItem="o6K-x8-LIn" secondAttribute="trailing" id="d8W-PI-Xko"/>
                             <constraint firstItem="o6K-x8-LIn" firstAttribute="trailing" secondItem="PAr-lo-m0W" secondAttribute="trailing" id="hip-Nt-bu7"/>
                             <constraint firstItem="Jgn-Kf-FRk" firstAttribute="trailing" secondItem="o6K-x8-LIn" secondAttribute="trailing" id="s73-54-4HF"/>
+                            <constraint firstItem="wf7-Td-czN" firstAttribute="leading" secondItem="o6K-x8-LIn" secondAttribute="leading" id="sa2-Bs-vVx"/>
+                            <constraint firstItem="wf7-Td-czN" firstAttribute="top" secondItem="o6K-x8-LIn" secondAttribute="top" id="slZ-sj-sdv"/>
                             <constraint firstItem="PAr-lo-m0W" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="r7g-Vc-mcd" secondAttribute="leading" constant="20" symbolic="YES" id="xpM-93-NI9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="o6K-x8-LIn"/>
@@ -171,6 +178,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="hexImage" destination="wf7-Td-czN" id="5uu-KG-bm7"/>
                         <outlet property="torilMapImageView" destination="Jgn-Kf-FRk" id="zb0-hV-h04"/>
                         <outlet property="xyCoordinateLabel" destination="PAr-lo-m0W" id="KhA-1m-scl"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="faerun" id="JLt-kG-2Fp"/>
@@ -296,6 +304,15 @@
                                     <action selector="showHideXYCoordinatesLabel:" destination="BgB-7a-6cB" eventType="touchUpInside" id="jEL-uW-0Q6"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fo-zd-x8m">
+                                <rect key="frame" x="234" y="280" width="132" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="  Show/Hide Hexes "/>
+                                <connections>
+                                    <action selector="showHideHexes:" destination="BgB-7a-6cB" eventType="touchUpInside" id="tvC-m2-veo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="icV-jj-q6b"/>
@@ -303,6 +320,7 @@
                     <connections>
                         <outlet property="artEmailButton" destination="mZ5-JC-v9v" id="TLb-xF-8EF"/>
                         <outlet property="linkToCodingButton" destination="u9S-a9-dd5" id="0UT-Rq-IQF"/>
+                        <outlet property="showHideHexesButton" destination="2fo-zd-x8m" id="tiB-ig-dxa"/>
                         <outlet property="showHideXYCoordinatesButton" destination="yn6-JY-aKq" id="JIt-kj-UnX"/>
                     </connections>
                 </viewController>
@@ -407,5 +425,6 @@
         <image name="TorilMap" width="2667" height="1500"/>
         <image name="andrew-woodyard-mirabar-web" width="1920" height="1506"/>
         <image name="faerunlarge" width="4763" height="3185"/>
+        <image name="hex" width="2880" height="2880"/>
     </resources>
 </document>

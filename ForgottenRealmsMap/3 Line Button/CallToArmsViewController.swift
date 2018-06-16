@@ -13,11 +13,12 @@ class CallToArmsViewController: UIViewController {
     @IBOutlet weak var linkToCodingButton: UIButton!
     @IBOutlet weak var artEmailButton: UIButton!
     @IBOutlet weak var showHideXYCoordinatesButton: UIButton!
+    @IBOutlet weak var showHideHexesButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let buttonArray = [linkToCodingButton, showHideXYCoordinatesButton, artEmailButton]
+        let buttonArray = [linkToCodingButton, showHideXYCoordinatesButton, artEmailButton, showHideHexesButton]
         
         
         for button in buttonArray {
@@ -42,5 +43,17 @@ class CallToArmsViewController: UIViewController {
 
     }
     
-
+    @IBAction func showHideHexes(_ sender: Any) {
+     
+        if showHexes == true {
+            showHexes = false
+            showHideHexesButton.setTitle("Show Hexes", for: .normal)
+        } else {
+            showHexes = true
+            showHideHexesButton.setTitle("Hide Hexes", for: .normal)
+        }
+        
+    }
+    
+    
 }

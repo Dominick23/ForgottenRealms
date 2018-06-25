@@ -63,7 +63,8 @@ class FaerunDetailView: UIView {
         scrollView.addSubview(visitWikiButton)
         
         // add if button,segue exists code to detail view initialization
-        // if button.segue != "" {
+        let segue = TorilViewController().segue()
+        if segue != "" {
         let zoomButton: UIButton = UIButton()
         zoomButton.frame=CGRect(x: 175, y: 135, width: 65, height: 23)
         zoomButton.backgroundColor=UIColor.gray
@@ -73,7 +74,7 @@ class FaerunDetailView: UIView {
         zoomButton.layer.cornerRadius = 5
         zoomButton.layer.borderWidth = 1
         zoomButton.layer.borderColor = UIColor.black.cgColor
-        scrollView.addSubview(zoomButton)
+            scrollView.addSubview(zoomButton)}
         
         
         let descriptionLabel: UILabel = UILabel()

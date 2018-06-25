@@ -42,19 +42,20 @@ class TorilViewController: UIViewController {
     //x and y are based on the original Image size
     let buttonsInfo : [Item] = [
         
+// 350x720, 720x350
         Item(id: 1, name: "Faerun", imageName: "faerunlarge", message: "\nFaerûn: The westernmost portion of Toril's central supercontinent, a diverse landscape inhabited by numerous races and cultures, including humans, dwarves, elves, halflings, and gnomes.[3]", wikiLink: "https://forgottenrealms.wikia.com/wiki/Faerun", segue: "faerun", x: 223, y: 60, width: 110, height: 110, rotation: 2*CGFloat.pi),
         
         Item(id: 2, name: "Kara Tur", imageName: "Kara tur", message: "\nKara Tur: The exotic east, steeped in ancient history like a fine tea. A land of Kenshi and Samurai with a twinge of eastern culture and good rice", wikiLink: "http://forgottenrealms.wikia.com/wiki/Kara-Tur", segue: "karaTur", x: 335, y: 67, width: 125, height: 105, rotation: 2*CGFloat.pi),
         
-        Item(id: 3, name: "Zakhara", imageName: "", message: "A mostly hot, arid realm dominated by elemental forces and a philosophy of http://forgottenrealms.wikia.com/wiki/Fate and Honor. And Genies, did we mention Genies!!!", wikiLink: "http://forgottenrealms.wikia.com/wiki/Zakhara", segue: "Zakhara", x: 263, y: 206, width: 105, height: 71, rotation: 2*CGFloat.pi),
+        Item(id: 3, name: "Zakhara", imageName: "", message: "A mostly hot, arid realm dominated by elemental forces and a philosophy of http://forgottenrealms.wikia.com/wiki/Fate and Honor. And Genies, did we mention Genies!!!", wikiLink: "http://forgottenrealms.wikia.com/wiki/Zakhara", segue: "", x: 263, y: 206, width: 105, height: 71, rotation: 2*CGFloat.pi),
         
-        Item(id: 4, name: "Osse", imageName: "", message: "Populated by spiritualists and druids <http://forgottenrealms.wikia.com/wiki/Druid>, the spirit world and nature dominated the lives of its inhabitants. Unexplored.Hop on down to Osse ;)", wikiLink: "http://forgottenrealms.wikia.com/wiki/Osse", segue: "Osse", x: 523, y: 169, width: 140, height: 105, rotation: 2*CGFloat.pi),
+        Item(id: 4, name: "Osse", imageName: "", message: "Populated by spiritualists and druids <http://forgottenrealms.wikia.com/wiki/Druid>, the spirit world and nature dominated the lives of its inhabitants. Unexplored.Hop on down to Osse ;)", wikiLink: "http://forgottenrealms.wikia.com/wiki/Osse", segue: "", x: 523, y: 169, width: 140, height: 105, rotation: 2*CGFloat.pi),
         
-        Item(id: 5, name: "Maztica", imageName: "Maztica", message: "Primitive cultures bound by duty to their gods gave blood sacrifices in return for power while those who disagreed with the practice struggled to survive. Cool Cat people love it here", wikiLink: "http://forgottenrealms.wikia.com/wiki/Maztica", segue: "Maztica", x: 100, y: 130, width: 72, height: 73, rotation: 2*CGFloat.pi),
+        Item(id: 5, name: "Maztica", imageName: "Maztica", message: "Primitive cultures bound by duty to their gods gave blood sacrifices in return for power while those who disagreed with the practice struggled to survive. Cool Cat people love it here", wikiLink: "http://forgottenrealms.wikia.com/wiki/Maztica", segue: "", x: 100, y: 130, width: 72, height: 73, rotation: 2*CGFloat.pi),
         
-        Item(id: 6, name: "Anchorome", imageName: "", message: "Hardly explored, seemingly populated with savage wild elves attacking anyone on sight, violent elves and more of the humans found in Maztica.", wikiLink: "http://forgottenrealms.wikia.com/wiki/Anchorome", segue: "Anteroom", x: 70, y: 74, width: 100, height: 63, rotation: 2*CGFloat.pi),
+        Item(id: 6, name: "Anchorome", imageName: "", message: "Hardly explored, seemingly populated with savage wild elves attacking anyone on sight, violent elves and more of the humans found in Maztica.", wikiLink: "http://forgottenrealms.wikia.com/wiki/Anchorome", segue: "", x: 70, y: 74, width: 100, height: 63, rotation: 2*CGFloat.pi),
         
-        Item(id: 7, name: "Katashaka", imageName: "", message: "South of Maztica. Unexplored, beings named Nyama-Nummo were worshiped by the Tabaxi tribes before they converted to the worship of http://forgottenrealms.wikia.com/wiki/Ubtao and their subsequent migration to the Jungles of Chult <http://forgottenrealms.wikia.com/wiki/Chult>.", wikiLink: "http://forgottenrealms.wikia.com/wiki/Katashaka", segue: "Katashaka", x: 100, y: 212, width: 85, height: 88, rotation: 2*CGFloat.pi),
+        Item(id: 7, name: "Katashaka", imageName: "", message: "South of Maztica. Unexplored, beings named Nyama-Nummo were worshiped by the Tabaxi tribes before they converted to the worship of http://forgottenrealms.wikia.com/wiki/Ubtao and their subsequent migration to the Jungles of Chult <http://forgottenrealms.wikia.com/wiki/Chult>.", wikiLink: "http://forgottenrealms.wikia.com/wiki/Katashaka", segue: "", x: 100, y: 212, width: 85, height: 88, rotation: 2*CGFloat.pi),
     ]
     
     override func viewDidAppear(_ animated: Bool) {
@@ -90,9 +91,9 @@ class TorilViewController: UIViewController {
             /*buttons.frame = CGRect(x: Double(renderedImageSize.width/originalImageSize.width)*item.x,
              y: Double(renderedImageSize.height/originalImageSize.height)*item.y,
              width: item.width, height: item.height)*/
-            buttons.frame = CGRect(x: item.x, y: item.y, width: item.width, height: item.height)
-            
-    buttons.borderColor = UIColor.black
+            buttons.frame = CGRect(x: Double(CGFloat(item.x/736)*view.frame.maxX), y: Double(CGFloat(item.y/414)*view.frame.maxY), width: Double(CGFloat(item.width/736)*view.frame.maxX), height: Double(CGFloat(item.height/414)*view.frame.maxY))
+            // 350x720, 720x350
+    buttons.borderColor = UIColor.blue
     buttons.borderWidth = 1.0
             buttons.titleLabel?.font = UIFont(name: "Helvetica", size: 8)
             buttons.backgroundColor = UIColor.clear
@@ -146,6 +147,12 @@ class TorilViewController: UIViewController {
         let item: [Item] = buttonsInfo.filter{$0.id == buttonTag}
         let button = item[0]
         return button.imageName
+    }
+
+    func segue() -> String {
+        let item: [Item] = buttonsInfo.filter{$0.id == buttonTag}
+        let button = item[0]
+        return button.segue
     }
     
     func message() -> String {

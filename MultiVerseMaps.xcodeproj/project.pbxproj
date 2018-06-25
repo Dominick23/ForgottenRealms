@@ -31,7 +31,7 @@
 /* Begin PBXFileReference section */
 		DC1F6363207D20850041B494 /* TorilDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorilDetailView.swift; sourceTree = "<group>"; };
 		DC36889A20A3EAF80039EE2A /* FaerunDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaerunDetailView.swift; sourceTree = "<group>"; };
-		DC3E5917203E92C100AA1415 /* ForgottenRealmsMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForgottenRealmsMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3E5917203E92C100AA1415 /* MultiVerseMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiVerseMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3E591A203E92C100AA1415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC3E591C203E92C100AA1415 /* FaerunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaerunViewController.swift; sourceTree = "<group>"; };
 		DC3E591F203E92C100AA1415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		DC3E5918203E92C100AA1415 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC3E5917203E92C100AA1415 /* ForgottenRealmsMap.app */,
+				DC3E5917203E92C100AA1415 /* MultiVerseMaps.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC3E5916203E92C100AA1415 /* ForgottenRealmsMap */ = {
+		DC3E5916203E92C100AA1415 /* MultiVerseMaps */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC3E5929203E92C100AA1415 /* Build configuration list for PBXNativeTarget "ForgottenRealmsMap" */;
+			buildConfigurationList = DC3E5929203E92C100AA1415 /* Build configuration list for PBXNativeTarget "MultiVerseMaps" */;
 			buildPhases = (
 				DC3E5913203E92C100AA1415 /* Sources */,
 				DC3E5914203E92C100AA1415 /* Frameworks */,
@@ -137,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = ForgottenRealmsMap;
+			name = MultiVerseMaps;
 			productName = ZoomTest;
-			productReference = DC3E5917203E92C100AA1415 /* ForgottenRealmsMap.app */;
+			productReference = DC3E5917203E92C100AA1415 /* MultiVerseMaps.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DC3E5912203E92C100AA1415 /* Build configuration list for PBXProject "ForgottenRealmsMap" */;
+			buildConfigurationList = DC3E5912203E92C100AA1415 /* Build configuration list for PBXProject "MultiVerseMaps" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -171,7 +171,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC3E5916203E92C100AA1415 /* ForgottenRealmsMap */,
+				DC3E5916203E92C100AA1415 /* MultiVerseMaps */,
 			);
 		};
 /* End PBXProject section */
@@ -347,11 +347,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F22437MDRU;
+				DEVELOPMENT_TEAM = NVF568TL67;
 				INFOPLIST_FILE = ForgottenRealmsMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = forgottenRealmsMap;
+				PRODUCT_BUNDLE_IDENTIFIER = multiVerseMaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -363,11 +363,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F22437MDRU;
+				DEVELOPMENT_TEAM = NVF568TL67;
 				INFOPLIST_FILE = ForgottenRealmsMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = forgottenRealmsMap;
+				PRODUCT_BUNDLE_IDENTIFIER = multiVerseMaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -377,7 +377,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DC3E5912203E92C100AA1415 /* Build configuration list for PBXProject "ForgottenRealmsMap" */ = {
+		DC3E5912203E92C100AA1415 /* Build configuration list for PBXProject "MultiVerseMaps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC3E5927203E92C100AA1415 /* Debug */,
@@ -386,7 +386,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC3E5929203E92C100AA1415 /* Build configuration list for PBXNativeTarget "ForgottenRealmsMap" */ = {
+		DC3E5929203E92C100AA1415 /* Build configuration list for PBXNativeTarget "MultiVerseMaps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC3E592A203E92C100AA1415 /* Debug */,

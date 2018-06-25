@@ -20,7 +20,7 @@ import UIKit
         func addDetailView() {
             
             let scrollView: UIScrollView = UIScrollView()
-            scrollView.frame = CGRect(x: 0, y: 50, width: frame.maxX, height: frame.maxY)
+            scrollView.frame = CGRect(x: 0, y: (50/414)*frame.maxY, width: frame.maxX, height: frame.maxY)
             scrollView.contentSize = CGSize(width: frame.maxX, height: 4000)
             scrollView.backgroundColor = UIColor.white
             self.addSubview(scrollView)

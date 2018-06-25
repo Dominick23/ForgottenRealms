@@ -13,6 +13,7 @@ import Foundation
  
  - change plist to use exceptions instead of allowing all websites or the app will get rejected
  - when I resized the images to allow for the navigation controller bar the buttons didn't line up anymore...
+ - Check 6/24/18
  
  
  */

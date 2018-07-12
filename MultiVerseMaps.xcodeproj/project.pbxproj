@@ -19,9 +19,11 @@
 		DC59256520A5042500C00C4C /* DetailsOfFaerun.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59256420A5042500C00C4C /* DetailsOfFaerun.swift */; };
 		DC5E55D22056DD02002EFA35 /* code.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E55D12056DD02002EFA35 /* code.swift */; };
 		DC5E55D42056E2D7002EFA35 /* MapOfMirabarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E55D32056E2D7002EFA35 /* MapOfMirabarViewController.swift */; };
+		DC6B2B9820F7131100A777F6 /* KaraTurVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B2B9720F7131100A777F6 /* KaraTurVC.swift */; };
+		DC6B2B9A20F7132500A777F6 /* MazticaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B2B9920F7132500A777F6 /* MazticaVC.swift */; };
+		DC6B2B9C20F7133E00A777F6 /* ZakharaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B2B9B20F7133E00A777F6 /* ZakharaVC.swift */; };
 		DCA8234E20903EE20098A932 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA8234D20903EE20098A932 /* HelpViewController.swift */; };
 		DCBE0209207C76D300922B63 /* TorilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE0208207C76D300922B63 /* TorilViewController.swift */; };
-		DCED661A20C39FB20078D947 /* Hexes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCED661920C39FB20078D947 /* Hexes.swift */; };
 		DCFFF7A320910F330016D870 /* CallToArmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFFF7A220910F330016D870 /* CallToArmsViewController.swift */; };
 		DCFFF7A520913E740016D870 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFFF7A420913E740016D870 /* ContactUsViewController.swift */; };
 		DCFFF7A720913EF40016D870 /* QuickReferenceRulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFFF7A620913EF40016D870 /* QuickReferenceRulesViewController.swift */; };
@@ -43,9 +45,11 @@
 		DC59256420A5042500C00C4C /* DetailsOfFaerun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsOfFaerun.swift; sourceTree = "<group>"; };
 		DC5E55D12056DD02002EFA35 /* code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = code.swift; sourceTree = "<group>"; };
 		DC5E55D32056E2D7002EFA35 /* MapOfMirabarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOfMirabarViewController.swift; sourceTree = "<group>"; };
+		DC6B2B9720F7131100A777F6 /* KaraTurVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraTurVC.swift; sourceTree = "<group>"; };
+		DC6B2B9920F7132500A777F6 /* MazticaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazticaVC.swift; sourceTree = "<group>"; };
+		DC6B2B9B20F7133E00A777F6 /* ZakharaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZakharaVC.swift; sourceTree = "<group>"; };
 		DCA8234D20903EE20098A932 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		DCBE0208207C76D300922B63 /* TorilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorilViewController.swift; sourceTree = "<group>"; };
-		DCED661920C39FB20078D947 /* Hexes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hexes.swift; sourceTree = "<group>"; };
 		DCFFF7A220910F330016D870 /* CallToArmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallToArmsViewController.swift; sourceTree = "<group>"; };
 		DCFFF7A420913E740016D870 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
 		DCFFF7A620913EF40016D870 /* QuickReferenceRulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickReferenceRulesViewController.swift; sourceTree = "<group>"; };
@@ -95,11 +99,10 @@
 				DC5E55D12056DD02002EFA35 /* code.swift */,
 				DCBE0208207C76D300922B63 /* TorilViewController.swift */,
 				DC36889C20A3EB080039EE2A /* TorilDetailViews */,
-				DC3E591C203E92C100AA1415 /* FaerunViewController.swift */,
+				DC6B2B9620F7123700A777F6 /* TorilContinents */,
 				DC59256420A5042500C00C4C /* DetailsOfFaerun.swift */,
 				DC5E55D32056E2D7002EFA35 /* MapOfMirabarViewController.swift */,
 				DC3E592C203E93FC00AA1415 /* Global.swift */,
-				DCED661920C39FB20078D947 /* Hexes.swift */,
 				DCA8234F20903EEC0098A932 /* 3 Line Button */,
 				DC3E591E203E92C100AA1415 /* Main.storyboard */,
 				DC3E5921203E92C100AA1415 /* Assets.xcassets */,
@@ -107,6 +110,17 @@
 				DC3E5926203E92C100AA1415 /* Info.plist */,
 			);
 			path = ForgottenRealmsMap;
+			sourceTree = "<group>";
+		};
+		DC6B2B9620F7123700A777F6 /* TorilContinents */ = {
+			isa = PBXGroup;
+			children = (
+				DC3E591C203E92C100AA1415 /* FaerunViewController.swift */,
+				DC6B2B9720F7131100A777F6 /* KaraTurVC.swift */,
+				DC6B2B9920F7132500A777F6 /* MazticaVC.swift */,
+				DC6B2B9B20F7133E00A777F6 /* ZakharaVC.swift */,
+			);
+			path = TorilContinents;
 			sourceTree = "<group>";
 		};
 		DCA8234F20903EEC0098A932 /* 3 Line Button */ = {
@@ -197,16 +211,18 @@
 			files = (
 				DCFFF7A720913EF40016D870 /* QuickReferenceRulesViewController.swift in Sources */,
 				DC5E55D22056DD02002EFA35 /* code.swift in Sources */,
+				DC6B2B9820F7131100A777F6 /* KaraTurVC.swift in Sources */,
 				DC4608912090EDE900F88555 /* ThreeLineButtonMenuViewController.swift in Sources */,
 				DC36889B20A3EAF80039EE2A /* FaerunDetailView.swift in Sources */,
 				DC3E591D203E92C100AA1415 /* FaerunViewController.swift in Sources */,
-				DCED661A20C39FB20078D947 /* Hexes.swift in Sources */,
 				DC3E591B203E92C100AA1415 /* AppDelegate.swift in Sources */,
 				DCA8234E20903EE20098A932 /* HelpViewController.swift in Sources */,
 				DC1F6364207D20850041B494 /* TorilDetailView.swift in Sources */,
 				DC59256520A5042500C00C4C /* DetailsOfFaerun.swift in Sources */,
 				DCFFF7A320910F330016D870 /* CallToArmsViewController.swift in Sources */,
+				DC6B2B9C20F7133E00A777F6 /* ZakharaVC.swift in Sources */,
 				DC5E55D42056E2D7002EFA35 /* MapOfMirabarViewController.swift in Sources */,
+				DC6B2B9A20F7132500A777F6 /* MazticaVC.swift in Sources */,
 				DC3E592D203E93FC00AA1415 /* Global.swift in Sources */,
 				DCBE0209207C76D300922B63 /* TorilViewController.swift in Sources */,
 				DCFFF7A520913E740016D870 /* ContactUsViewController.swift in Sources */,

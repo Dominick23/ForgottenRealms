@@ -47,11 +47,11 @@ class TorilViewController: UIViewController {
         
         Item(id: 2, name: "Kara Tur", imageName: "Kara tur", message: "\nKara Tur: The exotic east, steeped in ancient history like a fine tea. A land of Kenshi and Samurai with a twinge of eastern culture and good rice", wikiLink: "http://forgottenrealms.wikia.com/wiki/Kara-Tur", segue: "karaTur", x: 335, y: 67, width: 125, height: 105, rotation: 2*CGFloat.pi),
         
-        Item(id: 3, name: "Zakhara", imageName: "", message: "A mostly hot, arid realm dominated by elemental forces and a philosophy of http://forgottenrealms.wikia.com/wiki/Fate and Honor. And Genies, did we mention Genies!!!", wikiLink: "http://forgottenrealms.wikia.com/wiki/Zakhara", segue: "", x: 263, y: 206, width: 105, height: 71, rotation: 2*CGFloat.pi),
+        Item(id: 3, name: "Zakhara", imageName: "", message: "A mostly hot, arid realm dominated by elemental forces and a philosophy of http://forgottenrealms.wikia.com/wiki/Fate and Honor. And Genies, did we mention Genies!!!", wikiLink: "http://forgottenrealms.wikia.com/wiki/Zakhara", segue: "zakhara", x: 263, y: 206, width: 105, height: 71, rotation: 2*CGFloat.pi),
         
         Item(id: 4, name: "Osse", imageName: "", message: "Populated by spiritualists and druids <http://forgottenrealms.wikia.com/wiki/Druid>, the spirit world and nature dominated the lives of its inhabitants. Unexplored.Hop on down to Osse ;)", wikiLink: "http://forgottenrealms.wikia.com/wiki/Osse", segue: "", x: 523, y: 169, width: 140, height: 105, rotation: 2*CGFloat.pi),
         
-        Item(id: 5, name: "Maztica", imageName: "Maztica", message: "Primitive cultures bound by duty to their gods gave blood sacrifices in return for power while those who disagreed with the practice struggled to survive. Cool Cat people love it here", wikiLink: "http://forgottenrealms.wikia.com/wiki/Maztica", segue: "", x: 100, y: 130, width: 72, height: 73, rotation: 2*CGFloat.pi),
+        Item(id: 5, name: "Maztica", imageName: "Maztica", message: "Primitive cultures bound by duty to their gods gave blood sacrifices in return for power while those who disagreed with the practice struggled to survive. Cool Cat people love it here", wikiLink: "http://forgottenrealms.wikia.com/wiki/Maztica", segue: "maztica", x: 100, y: 130, width: 72, height: 73, rotation: 2*CGFloat.pi),
         
         Item(id: 6, name: "Anchorome", imageName: "", message: "Hardly explored, seemingly populated with savage wild elves attacking anyone on sight, violent elves and more of the humans found in Maztica.", wikiLink: "http://forgottenrealms.wikia.com/wiki/Anchorome", segue: "", x: 70, y: 74, width: 100, height: 63, rotation: 2*CGFloat.pi),
         

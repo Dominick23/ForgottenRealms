@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DC1F6364207D20850041B494 /* TorilDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F6363207D20850041B494 /* TorilDetailView.swift */; };
 		DC36889B20A3EAF80039EE2A /* FaerunDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC36889A20A3EAF80039EE2A /* FaerunDetailView.swift */; };
+		DC3C3DFD212D0D37005EF90D /* HowToVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3C3DFC212D0D37005EF90D /* HowToVC.swift */; };
 		DC3E591B203E92C100AA1415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3E591A203E92C100AA1415 /* AppDelegate.swift */; };
 		DC3E591D203E92C100AA1415 /* FaerunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3E591C203E92C100AA1415 /* FaerunViewController.swift */; };
 		DC3E5920203E92C100AA1415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3E591E203E92C100AA1415 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		DC1F6363207D20850041B494 /* TorilDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorilDetailView.swift; sourceTree = "<group>"; };
 		DC36889A20A3EAF80039EE2A /* FaerunDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaerunDetailView.swift; sourceTree = "<group>"; };
+		DC3C3DFC212D0D37005EF90D /* HowToVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToVC.swift; sourceTree = "<group>"; };
 		DC3E5917203E92C100AA1415 /* MultiVerseMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiVerseMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3E591A203E92C100AA1415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC3E591C203E92C100AA1415 /* FaerunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaerunViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				DC4608902090EDE900F88555 /* ThreeLineButtonMenuViewController.swift */,
+				DC3C3DFC212D0D37005EF90D /* HowToVC.swift */,
 				DCA8234D20903EE20098A932 /* HelpViewController.swift */,
 				DCFFF7A220910F330016D870 /* CallToArmsViewController.swift */,
 				DCFFF7A420913E740016D870 /* ContactUsViewController.swift */,
@@ -225,6 +228,7 @@
 				DC6B2B9A20F7132500A777F6 /* MazticaVC.swift in Sources */,
 				DC3E592D203E93FC00AA1415 /* Global.swift in Sources */,
 				DCBE0209207C76D300922B63 /* TorilViewController.swift in Sources */,
+				DC3C3DFD212D0D37005EF90D /* HowToVC.swift in Sources */,
 				DCFFF7A520913E740016D870 /* ContactUsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,11 +367,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NVF568TL67;
+				DEVELOPMENT_TEAM = F22437MDRU;
 				INFOPLIST_FILE = ForgottenRealmsMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = multiVerseMaps;
+				PRODUCT_BUNDLE_IDENTIFIER = forgottenRealmsMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -379,11 +383,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NVF568TL67;
+				DEVELOPMENT_TEAM = F22437MDRU;
 				INFOPLIST_FILE = ForgottenRealmsMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = multiVerseMaps;
+				PRODUCT_BUNDLE_IDENTIFIER = forgottenRealmsMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

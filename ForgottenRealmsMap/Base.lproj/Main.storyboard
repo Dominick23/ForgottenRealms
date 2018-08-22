@@ -369,9 +369,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Placeholder for information on helping improve the app in other ways (maps, pics, info, etc)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODB-bz-zg8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODB-bz-zg8">
                                 <rect key="frame" x="438" y="38" width="203" height="272"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">If coding isn't your specialty and you can also help in other ways please use the e-mail link below to send maps, graphics, images, information or anything else that you would like to use to help improve MultiVerseMaps</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -383,6 +384,7 @@
                                 <state key="normal" title=" Link to coding web site "/>
                                 <connections>
                                     <action selector="linkToCoding:" destination="TxG-Va-5cN" eventType="touchUpInside" id="7CG-8V-4dp"/>
+                                    <action selector="linkToCodingWebsite:" destination="BgB-7a-6cB" eventType="touchUpInside" id="iod-9Q-QgN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZ5-JC-v9v">
@@ -391,9 +393,10 @@
                                 <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title=" E-mail us about improving the app "/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Placeholder for information on helping code the app" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcm-Sd-YUM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcm-Sd-YUM">
                                 <rect key="frame" x="20" y="38" width="173" height="272"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">To help code this open source app please visit https://github.com/Dominick23/ForgottenRealms in your web browser or using the below link</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -472,36 +475,48 @@
             </objects>
             <point key="canvasLocation" x="-2649" y="1965"/>
         </scene>
-        <!--View Controller-->
+        <!--How ToVC-->
         <scene sceneID="DUa-yE-N98">
             <objects>
-                <viewController id="hj9-iP-QVx" sceneMemberID="viewController">
+                <viewController id="hj9-iP-QVx" customClass="HowToVC" customModule="MultiVerseMaps" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1jb-f2-3zP">
                         <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions for using the app place holder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="605-qG-FBJ">
-                                <rect key="frame" x="20" y="177" width="627" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="605-qG-FBJ">
+                                <rect key="frame" x="20" y="155" width="696" height="61"/>
+                                <string key="text">Welcome to the MultiVerseMap App! Please use this app to view the continents of Toril, with the ability to zoom in on features to provide more detail for campaigns or discovering all of the fascinating places in Toril!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Video Placeholder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hz1-eP-XtR">
-                                <rect key="frame" x="20" y="52" width="627" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gg-m3-mcp">
+                                <rect key="frame" x="324.66666666666669" y="81" width="87" height="30"/>
+                                <state key="normal" title="Watch Video">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="watchVideo:" destination="hj9-iP-QVx" eventType="touchUpInside" id="dcT-Wr-qGJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9gg-m3-mcp" firstAttribute="centerX" secondItem="1jb-f2-3zP" secondAttribute="centerX" id="Bf5-02-l4u"/>
+                            <constraint firstItem="9gg-m3-mcp" firstAttribute="top" secondItem="Lzp-CH-0Hl" secondAttribute="top" constant="49" id="Mha-t3-OcL"/>
+                            <constraint firstItem="605-qG-FBJ" firstAttribute="leading" secondItem="Lzp-CH-0Hl" secondAttribute="leading" constant="20" id="WIr-pw-U5Z"/>
+                            <constraint firstItem="605-qG-FBJ" firstAttribute="top" secondItem="9gg-m3-mcp" secondAttribute="bottom" constant="44" id="fwS-0C-lt1"/>
+                            <constraint firstItem="605-qG-FBJ" firstAttribute="centerX" secondItem="1jb-f2-3zP" secondAttribute="centerX" id="xJK-L5-RN7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Lzp-CH-0Hl"/>
                     </view>
+                    <connections>
+                        <outlet property="watchVideoButton" destination="9gg-m3-mcp" id="dtu-Ja-waL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bVP-yg-nHx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2649" y="117"/>
+            <point key="canvasLocation" x="-2649.4565217391305" y="115.94202898550725"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RJ9-Vl-CBo">

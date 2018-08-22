@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import MessageUI
 
-class CallToArmsViewController: UIViewController {
+class CallToArmsViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
     @IBOutlet weak var linkToCodingButton: UIButton!
     @IBOutlet weak var artEmailButton: UIButton!
@@ -53,6 +54,29 @@ class CallToArmsViewController: UIViewController {
             showHideHexesButton.setTitle("Hide Hexes", for: .normal)
         }
         
+    }
+    
+    @IBAction func linkToCodingWebsite(_ sender: Any) {
+        let webV:UIWebView = UIWebView(frame: CGRect(x:0, y:0, width:UIScreen.main.bounds.width, height:UIScreen.main.bounds.height))
+        webV.loadRequest(URLRequest(url: URL(string: "https://github.com/Dominick23/ForgottenRealms")!))
+        webV.delegate = self as? UIWebViewDelegate;
+        self.view.addSubview(webV)
+    }
+    
+    @IBAction func appImprovementEmail(_ sender: Any) {
+        
+        if MFMailComposeViewController.canSendMail() {
+            let emailController = MFMailComposeViewController()
+            emailController.mailComposeDelegate = self
+            emailController.setToRecipients(["MultiVerseMapsSuggestions@gmail.com"])
+            emailController.setSubject("I would like to offer assistance to help improve MultiverseMaps")
+            emailController.setMessageBody("Please describe your idea here", isHTML: false)
+            present(emailController, animated: true, completion: nil)
+        }
+    }
+    
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        controller.dismiss(animated: true, completion: nil)
     }
     
     

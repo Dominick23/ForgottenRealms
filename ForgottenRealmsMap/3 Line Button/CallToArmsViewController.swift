@@ -65,6 +65,7 @@ class CallToArmsViewController: UIViewController, MFMailComposeViewControllerDel
     
     @IBAction func appImprovementEmail(_ sender: Any) {
         
+        print("Tried")
         if MFMailComposeViewController.canSendMail() {
             let emailController = MFMailComposeViewController()
             emailController.mailComposeDelegate = self

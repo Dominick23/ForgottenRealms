@@ -12,8 +12,6 @@ class HelpViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        print("test2")
        
     }
 

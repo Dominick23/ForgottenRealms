@@ -382,6 +382,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title=" E-mail us about improving the app "/>
+                                <connections>
+                                    <action selector="appImprovementEmail:" destination="BgB-7a-6cB" eventType="touchUpInside" id="Nfb-La-eY0"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcm-Sd-YUM">
                                 <rect key="frame" x="20" y="38" width="173" height="272"/>
@@ -441,8 +444,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gg-m3-mcp">
-                                <rect key="frame" x="324.66666666666669" y="81" width="87" height="30"/>
-                                <state key="normal" title="Watch Video">
+                                <rect key="frame" x="320.66666666666669" y="81" width="95" height="30"/>
+                                <state key="normal" title=" Watch Video ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>

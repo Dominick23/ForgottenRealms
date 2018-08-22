@@ -301,7 +301,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="AZG-7y-DAg">
-                                <rect key="frame" x="194" y="102" width="348" height="210"/>
+                                <rect key="frame" x="194" y="132" width="348" height="150"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCB-FN-w5Y">
                                         <rect key="frame" x="0.0" y="0.0" width="348" height="30"/>
@@ -319,16 +319,8 @@
                                             <segue destination="BgB-7a-6cB" kind="show" id="B7z-MU-he5"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGf-2o-Cgi">
-                                        <rect key="frame" x="0.0" y="120" width="348" height="30"/>
-                                        <color key="backgroundColor" red="0.93709164860000005" green="0.93694382909999996" blue="0.95754462480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Contact us"/>
-                                        <connections>
-                                            <segue destination="EWu-yQ-apm" kind="show" id="G5t-gk-SPI"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ned-Sh-Fwe">
-                                        <rect key="frame" x="0.0" y="180" width="348" height="30"/>
+                                        <rect key="frame" x="0.0" y="120" width="348" height="30"/>
                                         <color key="backgroundColor" red="0.93709164860000005" green="0.93694382909999996" blue="0.95754462480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Quick reference rules"/>
                                         <connections>
@@ -337,9 +329,8 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="vGf-2o-Cgi" firstAttribute="width" secondItem="Apm-cA-rYf" secondAttribute="width" id="8tG-Fz-Cxd"/>
                                     <constraint firstItem="Apm-cA-rYf" firstAttribute="width" secondItem="hCB-FN-w5Y" secondAttribute="width" id="EXf-by-vHl"/>
-                                    <constraint firstItem="Ned-Sh-Fwe" firstAttribute="width" secondItem="vGf-2o-Cgi" secondAttribute="width" id="w9r-X5-MqM"/>
+                                    <constraint firstItem="Ned-Sh-Fwe" firstAttribute="width" secondItem="Apm-cA-rYf" secondAttribute="width" id="S3t-tT-vGq"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -352,7 +343,6 @@
                     </view>
                     <connections>
                         <outlet property="callToArmsButton" destination="Apm-cA-rYf" id="HAn-rX-boQ"/>
-                        <outlet property="contactUsButton" destination="vGf-2o-Cgi" id="tJG-8g-1pn"/>
                         <outlet property="howToUseThisMapButton" destination="hCB-FN-w5Y" id="9RW-Is-HPS"/>
                         <outlet property="quickReferenceRulesButton" destination="Ned-Sh-Fwe" id="51n-4l-NpE"/>
                     </connections>
@@ -434,46 +424,6 @@
                 <exit id="TxG-Va-5cN" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-2649" y="1035"/>
-        </scene>
-        <!--Contact Us View Controller-->
-        <scene sceneID="WS4-JD-9P2">
-            <objects>
-                <viewController id="EWu-yQ-apm" customClass="ContactUsViewController" customModule="MultiVerseMaps" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="PIa-qz-v70">
-                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thank you for your interest in our app. Please use the below buttons to contact us via e-mail or view our Facebook page." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RwN-y3-1Rz">
-                                <rect key="frame" x="20" y="56" width="627" height="109"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpB-35-r7D">
-                                <rect key="frame" x="20" y="325" width="75" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title=" Facebook "/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4e-D0-WYR">
-                                <rect key="frame" x="602" y="325" width="45" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title=" Email "/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="fQS-6B-w0u"/>
-                    </view>
-                    <connections>
-                        <outlet property="emailButton" destination="v4e-D0-WYR" id="bkb-lO-Gjj"/>
-                        <outlet property="facebookButton" destination="xpB-35-r7D" id="TMv-L5-gez"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="scU-Ns-Rgn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2649" y="1965"/>
         </scene>
         <!--How ToVC-->
         <scene sceneID="DUa-yE-N98">
